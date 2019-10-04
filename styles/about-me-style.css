@@ -1,0 +1,170 @@
+*
+{
+    margin: 0px;
+    padding: 5px;
+}
+
+a:link
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+  
+a:visited
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+body
+{
+    background-image: linear-gradient(to top, hsl(0, 0%, 49%), hsl(0, 0%, 0%));
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nav-logo
+{
+    float: left;
+    width: 100%;
+}
+
+.nav-logo:hover
+{
+    -webkit-filter: brightness(120%);
+    transition: all ease-in-out 400ms;
+}
+
+.nav
+{
+    float: right;
+}
+
+
+.nav ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav li
+{
+    display: inline-block;
+    margin-right: 50px;
+    padding-top: 30px;
+    position: relative;
+}
+
+
+.nav li a
+{
+    color: #d8d8d8;
+    font-size: 17px;
+    font-family: "Roboto";
+    padding: 5px 10px;
+    margin-left: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px #000000, 1px 1px 5px #000000;
+}
+
+
+.nav a:hover
+{
+    color: #ffffff;
+}
+  
+.nav a::before
+{
+    content: '';
+    display: block;
+    height: 5px;
+    margin-top: 60px;
+    background-color: #005ed8;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 200ms;
+}
+  
+.nav a:hover::before
+{
+    width: 100%;
+}
+
+
+.nav li.active a
+{
+    border: 1px solid #005ed8;
+    font-family: "Roboto";
+    border-radius: 7px;
+}
+
+h1
+{
+    text-align: center;
+    color: black;
+    background-color: rgb(121, 121, 121);
+    font-size: 50px;
+    margin-top: 200px;
+    height: 90px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-left: 25%;
+    margin-right: 24.5%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+p
+{
+    color: white;
+    text-align: center;
+}
+
+#para
+{
+    float: left;
+    width: 50%;    
+}
+
+h3
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #005ed8;
+    height: 30px;
+    padding-top: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+    width: 47%;    
+}
+
+#socials
+{
+  margin-top: 5%;
+  margin-left: 14%;
+  float: left;
+}
+
+.pics
+{
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.pics:hover
+{
+    transition: all ease-in-out 200ms;
+    -webkit-filter: brightness(80%);
+}
+
+#the-content
+{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}

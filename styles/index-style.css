@@ -1,0 +1,86 @@
+*
+{
+    margin: 0px;
+    padding: 5px;
+}
+
+a:link
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+  
+a:visited
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://wallpaperaccess.com/full/869923.gif);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nav-logo
+{
+    float: left;
+    width: 100%;
+}
+
+.nav-logo:hover
+{
+    -webkit-filter: brightness(120%);
+    transition: all ease-in-out 400ms;
+}
+
+
+#buttons
+{
+  margin-top: 300px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+
+.btn1
+{
+    opacity: 0.6;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+a.btn1:hover
+{
+  transform: scale(1.2);
+  transition: all ease-in-out 400ms;
+  opacity: 1;
+}
+
+.btn2
+{
+    opacity: 0.6;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.btn2:hover
+{
+  transform: scale(1.2);
+  transition: all ease-in-out 400ms;
+  opacity: 1;
+}
+
+.btn3
+{
+  opacity: 0.6;
+  display: inline-block;
+}
+
+.btn3:hover
+{
+  transform: scale(1.2);
+  transition: all ease-in-out 400ms;
+  opacity: 1;
+}
